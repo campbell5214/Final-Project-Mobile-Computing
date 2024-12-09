@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/pirateback">
+
+
+    <ImageView
+        android:id="@+id/img_pumpkin"
+        android:layout_width="364dp"
+        android:layout_height="108dp"
+        android:layout_gravity="center"
+        android:contentDescription="Pumpkin"
+        android:src="@drawable/pirate" />
+
+    <TextView
+        android:id="@+id/tv_electronics"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Battle Royale"
+        android:textColor="@color/gold"
+        android:textStyle="bold"
+        android:shadowColor="@android:color/black"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="1"
+        android:textSize="24sp"
+        android:layout_marginBottom="8dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="4dp">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/fortnite_logo"
+            android:contentDescription="Fortnite Image"
+            android:layout_marginEnd="16dp"/>
+
+        <TextView
+            android:id="@+id/tv_electronics_item1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Fortnite - $60.00"
+            android:textStyle="bold"
+            android:shadowColor="@android:color/black"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="1"
+            android:textColor="@android:color/black"
+
+            android:textSize="20sp"/>
+
+        <CheckBox
+            android:id="@+id/cb_smartphone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="4dp">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/apex_legends_logo"
+            android:contentDescription="Apex Legends Image"
+            android:layout_marginEnd="16dp"/>
+
+        <TextView
+            android:id="@+id/tv_electronics_item2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Apex Legends - $40.00"
+            android:textStyle="bold"
+            android:shadowColor="@android:color/black"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="1"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"/>
+
+        <CheckBox
+            android:id="@+id/cb_laptop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_clothing"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="8dp"
+        android:shadowColor="@android:color/black"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="1"
+        android:text="Indie Games"
+        android:textColor="@color/gold"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="4dp">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/planets_pancakes_logo"
+            android:contentDescription="Planets &amp; Pancakes Image"
+            android:layout_marginEnd="16dp"/>
+
+        <TextView
+            android:id="@+id/tv_clothing_item1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Planets &amp; Pancakes - $5.00"
+            android:textStyle="bold"
+            android:shadowColor="@android:color/black"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="1"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"/>
+
+        <CheckBox
+            android:id="@+id/cb_tshirt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="4dp">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/lethal_company_logo"
+            android:contentDescription="Lethal Company Image"
+            android:layout_marginEnd="16dp"/>
+
+        <TextView
+            android:id="@+id/tv_clothing_item2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Lethal Company - $20.00"
+            android:textStyle="bold"
+            android:shadowColor="@android:color/black"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="1"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"/>
+
+        <CheckBox
+            android:id="@+id/cb_jeans"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/tv_groceries"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Battle Passes"
+        android:textStyle="bold"
+        android:shadowColor="@android:color/black"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="1"
+        android:textColor="@color/gold"
+        android:textSize="24sp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="8dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="4dp">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/fortnite_logo"
+            android:contentDescription="Crew Pass Image"
+            android:layout_marginEnd="16dp"/>
+
+        <TextView
+            android:id="@+id/tv_grocery_item1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Crew Pass - $10.00"
+            android:textStyle="bold"
+            android:shadowColor="@android:color/black"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="1"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"/>
+
+        <CheckBox
+            android:id="@+id/cb_milk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="4dp">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/planets_pancakes_logo"
+            android:contentDescription="Astro Pass Image"
+            android:layout_marginEnd="16dp"/>
+
+        <TextView
+            android:id="@+id/tv_grocery_item2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Pancake Pass - $2.00"
+            android:textStyle="bold"
+            android:shadowColor="@android:color/black"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="1"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"/>
+
+        <CheckBox
+            android:id="@+id/cb_bread"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_view_cart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View Cart"
+        android:textStyle="bold"
+        android:shadowColor="@android:color/black"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="1"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="20dp" />
+
+
+</LinearLayout>

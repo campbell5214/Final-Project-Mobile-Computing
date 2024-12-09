@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+    android:background="#000000">
+
+
+    <TextView
+        android:id="@+id/tv_purchase_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:textSize="24sp"
+        android:gravity="center"
+        android:text="Purchase Successful!\n\nThank you for shopping at Pirate Pixels!\n\nEnjoy your game!" />
+
+
+    <Button
+        android:id="@+id/btn_home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Go to Home"
+        android:textSize="20sp"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/green_color"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:shadowColor="@android:color/black"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="1" />
+</LinearLayout>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/pirateback">
+
+    <TextView
+        android:id="@+id/tv_cart_summary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cart Summary"
+        android:textSize="30sp"
+        android:textColor="@color/gold"
+        android:textStyle="bold"
+        android:shadowColor="@android:color/black"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="1"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/tv_selected_products"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Selected Products:"
+        android:textSize="25sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:shadowColor="@android:color/black"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="1"
+        android:layout_marginTop="16dp" />
+
+
+    <TextView
+        android:id="@+id/tv_total_cost"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Total Cost: $0.00"
+        android:textColor="@color/green_color"
+        android:textStyle="bold"
+        android:shadowColor="@android:color/black"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="1"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/btn_checkout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Checkout"
+        android:textSize="20sp"
+        android:padding="10dp"
+        android:layout_gravity="center_horizontal"
+        android:backgroundTint="@color/green_color"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:shadowColor="@android:color/black"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="1"
+        android:layout_marginTop="200dp" />
+
+    <Button
+        android:id="@+id/btn_back_to_list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back to Product List"
+        android:textSize="20sp"
+        android:padding="10dp"
+        android:layout_gravity="center_horizontal"
+        android:backgroundTint="@color/red_color"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:shadowColor="@android:color/black"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="1"
+        android:layout_marginTop="20dp" />
+
+</LinearLayout>

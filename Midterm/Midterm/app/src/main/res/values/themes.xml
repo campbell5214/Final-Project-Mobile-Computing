@@ -1,0 +1,12 @@
+<resources>
+
+    <style name="Theme.Halloween" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">@color/halloweenOrange</item>
+        <item name="colorPrimaryDark">@color/halloweenPurple</item>
+        <item name="colorAccent">@color/halloweenGreen</item>
+        <item name="android:windowBackground">@color/halloweenBlack</item>
+        <item name="android:textColor">@color/halloweenWhite</item>
+        <item name="android:textColorSecondary">@color/halloweenGreen</item>
+    </style>
+
+</resources>
